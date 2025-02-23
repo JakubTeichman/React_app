@@ -17,12 +17,11 @@ const images = importAll(require.context('../../static', true, /\.(png|jpe?g|svg
 
 const Project = () => {
     return (
-    <div className="project">
+    <div className="project" id="projects">
         {Object.keys(images).map(folder => (
             <article>
-                <h1>{'Project' }</h1>
+                <h1>{folder}</h1>
                     <div key={folder}>
-                        <h2>{folder}</h2>
                         {images[folder].map((src, index) => (
                         <img key={index} src={src} alt={`Image ${index + 1}`} />
                         ))}

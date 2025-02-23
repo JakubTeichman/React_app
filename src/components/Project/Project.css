@@ -4,18 +4,26 @@ div .project {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    background-color: rgb(255, 254, 253);
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(255, 0, 0);
 }
 
 
 article {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(243, 227, 230, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px;
     border-radius: 15px;
-
+    box-shadow: inset;
+    padding: 3vw;
+    border-style: solid;
+    border-color: black;
+    margin: 30px
 }
 
 img {

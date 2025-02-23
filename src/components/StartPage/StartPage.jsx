@@ -4,8 +4,8 @@ import "./StartPage.css";
 const StartPage = () => {
   return (
     <div>
-      <h1 className="start-page">Start Page</h1>
-      <p className="start-page">v v v v v</p>
+      <h1 className="start-page">START PAGE</h1>
+      <p className="start-page"></p>
     </div>
   );
 }   
