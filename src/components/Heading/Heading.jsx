@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
+import './Heading.css';
 
-const ComponentName = () => {
+const Heading = () => {
   const [state, setState] = useState(null);
 
   return (
-    <>
+    <nav>
         <a href="">Home</a>
         <a href="">About</a>
         <a href="">Projects</a>
         <a href="">Contact</a>
-    </>
+    </nav>
   );
 };
 
-export default ComponentName;
+export default Heading;

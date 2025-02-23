@@ -1,0 +1,17 @@
+h1.start-page {
+    font-size: 4.5rem;
+    margin: 25vh 0 0 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.start-page{
+    font-size: 1.5rem;
+    padding: 2px;
+    margin-bottom: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

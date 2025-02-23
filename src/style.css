@@ -1,0 +1,18 @@
+:root {
+    background: linear-gradient(to right, #C33764, #1D2671);
+    background-size: 200% 200%;
+    animation: gradientAnimation 20s cubic-bezier(0.075, 0.7, 0.165, 1) infinite;
+    color: #ece8e8;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-spacing: normal;
+
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
