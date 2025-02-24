@@ -1,0 +1,90 @@
+img.about {
+    border-radius: 10px;
+    height: auto;
+    width: 10vw;
+    display: block;
+    margin: 0;
+    border-radius: 100px;
+}
+
+div.about-img {
+    background-color: linear-gradient(to right,#1D2671, #C33764);
+    border-radius: 300px;
+    width: 10vw;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.252);
+    border-radius: 250px;
+    
+}
+
+div.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+}
+
+div.about div {
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+div.about-main {
+    margin-top: 20vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 20px;
+}
+
+div.about-main h1 {
+    margin-right: 20px;
+    font-size: 3.5rem;
+    letter-spacing: 1cap;
+    margin-bottom: 6vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+}
+
+li img {
+    height: 3.5vw;
+    width: auto;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    border-radius: 15px;
+    box-shadow: inset;
+    padding: 3vw;
+    list-style: armenian;
+}
+
+li p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+div.skills {
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.252);
+    border-radius: 50px;
+}
+
+div.skills ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}

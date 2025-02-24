@@ -1,6 +1,6 @@
 :root body {
-    background: linear-gradient(to right, #C33764, #1D2671);
-    background-size: 150% 150%;
+    background: linear-gradient(to right, #ffbd97, #ff0202);
+    background-size: 180% 180%;
     animation: gradientAnimation 10s cubic-bezier(0.075, 0.7, 0.165, 1) infinite;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -8,7 +8,16 @@
     padding: 0;
     box-sizing: border-box;
     word-spacing: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: right;
+    background-image: url('./image.png');
 
+}
+
+div {
+    margin: 0;
+    padding: 0;
 }
 
 @keyframes gradientAnimation {

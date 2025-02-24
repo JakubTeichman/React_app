@@ -1,0 +1,16 @@
+footer {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 30px;
+    color: rgb(255, 0, 0);
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
