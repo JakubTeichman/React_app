@@ -6,6 +6,7 @@ const Footer = () => {
     <footer>
         <h1 id="contact">CONTACT</h1>
         <p>tel: <a href="tel:733817408">733817408</a></p>
+        <p>mail: <a href="mailto: jakub.teichman@onet.pl">jakub.teichman@onet.pl</a></p>
         <p>© 2025 Jakub Teichman</p>
     </footer>
   );

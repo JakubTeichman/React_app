@@ -4,7 +4,7 @@ div .project {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Pozwala elementom na zawijanie się do nowej linii */
     margin-left: 0;
     margin-right: 0;
     color: rgb(255, 255, 255);
@@ -21,7 +21,9 @@ article {
     box-shadow: inset;
     padding: 3vw;
     margin: 30px;
-    background-color: rgba(186, 241, 241, 0.129);
+    background-color: #609f8a;
+    flex-basis: calc(50% - 60px); /* Ustaw szerokość na 50% minus margines */
+    box-sizing: border-box; /* Upewnij się, że padding i border są wliczane do szerokości */
 }
 
 img {
@@ -30,4 +32,11 @@ img {
     width: 300px;
     height: 300px;
     border-radius: 10px;
+}
+
+/* Media queries dla mniejszych ekranów */
+@media (max-width: 768px) {
+    article {
+        flex-basis: calc(100% - 60px); /* Ustaw szerokość na 100% minus margines dla mniejszych ekranów */
+    }
 }

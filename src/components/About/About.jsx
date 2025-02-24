@@ -7,8 +7,6 @@ const About = () => {
             <div className="me">
             <h1 className="about" id="about">ABOUT</h1>
             <div className="about">
-                <div className="about-img">
-                </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, fugiat error a voluptatibus sed modi est deleniti ipsum laboriosam dignissimos necessitatibus tempora quae officiis dolores vel, iste unde deserunt quibusdam?</p>
                 </div>
