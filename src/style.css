@@ -1,5 +1,5 @@
 :root body {
-    background: linear-gradient(to right, #ffbd97, #ff0202);
+    background: linear-gradient(to right, #8b3e11, #ff0202);
     background-size: 180% 180%;
     animation: gradientAnimation 10s cubic-bezier(0.075, 0.7, 0.165, 1) infinite;
     color: #ffffff;
@@ -11,7 +11,7 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: right;
-    background-image: url('./image.png');
+    background-image: url('https://images.unsplash.com/photo-1548362851-ea052637ad64?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 
 }
 

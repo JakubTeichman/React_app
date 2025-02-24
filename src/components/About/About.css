@@ -32,9 +32,8 @@ div.about div {
 
 div.about-main {
     margin-top: 20vh;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    border-radius: 20px;
+    background: linear-gradient(to right bottom , #456d61, #609f8a);
+    padding: 20px;
 }
 
 div.about-main h1 {
@@ -62,21 +61,23 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0;
     border-radius: 15px;
     box-shadow: inset;
-    padding: 3vw;
+    padding: 1vw;
     list-style: armenian;
 }
 
 li p {
     margin-bottom: 20px;
     font-size: 1.4rem;
+    padding: 0px;
+    margin: 0px;
 }
 
 div.skills {
     margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.252);
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(255, 254, 254, 0.252);
     border-radius: 50px;
 }
 

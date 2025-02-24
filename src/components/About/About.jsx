@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import "./About.css";
-import profile_photo from "./profile_photo.png";
 
 const About = () => {
     return (
@@ -9,7 +8,6 @@ const About = () => {
             <h1 className="about" id="about">ABOUT</h1>
             <div className="about">
                 <div className="about-img">
-                    <img className="about" src={profile_photo} alt="" />
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, fugiat error a voluptatibus sed modi est deleniti ipsum laboriosam dignissimos necessitatibus tempora quae officiis dolores vel, iste unde deserunt quibusdam?</p>
@@ -17,8 +15,8 @@ const About = () => {
             </div>
         </div>
             <h1>SKILLS</h1>
-            <div className="skills">
             <h2>Machine learing and data analisis</h2>
+            <div className="skills">
                     <ul>
                         <li>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="" />
@@ -42,9 +40,8 @@ const About = () => {
                         </li>
                     </ul>
                 </div>
-
-                <div className="skills">
                 <h2>Programming</h2>
+                <div className="skills">
                     <ul>
                         <li>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1820px-Logo_C_sharp.svg.png" alt="" />
