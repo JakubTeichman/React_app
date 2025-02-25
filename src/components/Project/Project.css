@@ -1,13 +1,12 @@
 div .project {
-    margin: 10vh;
+    margin: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap; /* Pozwala elementom na zawijanie się do nowej linii */
-    margin-left: 0;
-    margin-right: 0;
     color: rgb(255, 255, 255);
+    padding: 0vw;
 }
 
 
@@ -16,14 +15,15 @@ article {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
     border-radius: 15px;
     box-shadow: inset;
-    padding: 3vw;
-    margin: 30px;
+    padding: 1vw;
+    margin: 1vw;
+    margin-bottom: 2vw;
     background-color: #609f8a;
-    flex-basis: calc(50% - 60px); /* Ustaw szerokość na 50% minus margines */
-    box-sizing: border-box; /* Upewnij się, że padding i border są wliczane do szerokości */
+    flex-basis: calc(50% - 60px); 
+    box-sizing: border-box; 
+
 }
 
 img {

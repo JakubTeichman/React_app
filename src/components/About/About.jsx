@@ -13,7 +13,7 @@ const About = () => {
             </div>
         </div>
             <h1>SKILLS</h1>
-            <h2>Machine learing and data analisis</h2>
+            <h2>Machine learning</h2>
             <div className="skills">
                     <ul>
                         <li>
@@ -33,12 +33,34 @@ const About = () => {
                             <p>SciKit-learn</p>
                         </li>
                         <li>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" alt="" />
-                            <p>Matplolib</p>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png" alt="" />
+                            <p>TensorFlow</p>
                         </li>
                     </ul>
                 </div>
-                <h2>Programming</h2>
+                <h2>Data analisys and visualization</h2>
+                <div className="skills">
+                    <ul>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" alt="" />
+                            <p>Matplolib</p>
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sql_data_base_with_logo.svg/2560px-Sql_data_base_with_logo.svg.png" alt="" />
+                            <p>SQL</p>
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Microsoft_Excel_2013-2019_logo.svg/814px-Microsoft_Excel_2013-2019_logo.svg.png" alt="" />
+                            <p>Excel</p>
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/1200px-New_Power_BI_Logo.svg.png" alt="" />
+                            <p>Power BI</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <h2>Programing</h2>
                 <div className="skills">
                     <ul>
                         <li>
@@ -46,8 +68,8 @@ const About = () => {
                             <p>C#</p>
                         </li>
                         <li>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sql_data_base_with_logo.svg/2560px-Sql_data_base_with_logo.svg.png" alt="" />
-                            <p>SQL</p>
+                            <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/flask-qvsfwhwywucb6zv0d7ce.png/flask-1byb2jlw6nwim4nx2248xg.png?_a=DAJFJtWIZAAC" alt="" />
+                            <p>Flask</p>
                         </li>
                         <li>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="" />
