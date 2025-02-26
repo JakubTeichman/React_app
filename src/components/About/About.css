@@ -30,6 +30,14 @@ div.about div {
     padding-left: 2vw;
 }
 
+div.about p {
+    display: block;
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
 div.about-main {
     margin-top: 20vh;
     background-color: #609f8a;

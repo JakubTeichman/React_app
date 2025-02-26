@@ -1,4 +1,4 @@
-div .project {
+div.project {
     margin: 20vh;
     display: flex;
     justify-content: space-around;
@@ -29,10 +29,27 @@ article {
 img {
     height: auto;
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    height: 300px; 
+    width: auto;
     border-radius: 10px;
 }
+
+button {
+    background-color: #ff7f50; /* Kolor tła */
+    color: white; /* Kolor tekstu */
+    border: none; /* Usuń obramowanie */
+    border-radius: 5px; /* Zaokrąglone rogi */
+    padding: 10px 20px; /* Padding wewnętrzny */
+    font-size: 1rem; /* Rozmiar czcionki */
+    cursor: pointer; /* Kursor wskazujący na możliwość kliknięcia */
+    transition: background-color 0.3s ease; /* Animacja zmiany koloru tła */
+    margin-top: 10px; /* Margines górny */
+}
+
+button:hover {
+    background-color: #ff6347; /* Kolor tła po najechaniu */
+}
+
 
 /* Media queries dla mniejszych ekranów */
 @media (max-width: 768px) {

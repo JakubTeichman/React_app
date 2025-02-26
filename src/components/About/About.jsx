@@ -8,7 +8,12 @@ const About = () => {
             <h1 className="about" id="about">ABOUT</h1>
             <div className="about">
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, fugiat error a voluptatibus sed modi est deleniti ipsum laboriosam dignissimos necessitatibus tempora quae officiis dolores vel, iste unde deserunt quibusdam?</p>
+                    <p>I'm an ambitious and motivated student at AGH University of Science and Technology, 
+                        passionate about <b>cybersecurity</b>, <b>data analysis</b>, and <b>machine learning</b>. 
+                        Constantly developing my skills in programming, digital forensics, and AI-driven 
+                        security solutions. Eager to gain hands-on experience through an <b>internship</b> in 
+                        cybersecurity or data science. Open to collaboration and always 
+                        looking for new challenges!</p>
                 </div>
             </div>
         </div>

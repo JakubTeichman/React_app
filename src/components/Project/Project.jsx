@@ -1,37 +1,79 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Project.css";
 
 function importAll(r) {
-    let images = {};
-    r.keys().forEach((item, index) => {
-      const folder = item.split('/')[1];
-      if (!images[folder]) {
-        images[folder] = [];
-      }
-      images[folder].push(r(item));
-    });
-    return images;
-  }
+  let images = {};
+  r.keys().forEach((item, index) => {
+    const folder = item.split('/')[1];
+    if (!images[folder]) {
+      images[folder] = [];
+    }
+    images[folder].push(r(item));
+  });
+  return images;
+}
 
 const images = importAll(require.context('../../static', true, /\.(png|jpe?g|svg)$/));
 
+const Project1 = {
+  title: "Project 1",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
+  category: "category",
+  sourceCode: "https://example.com",
+  images: images.project1
+}
+
+const Project2 = {
+  title: "Project 1",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
+  category: "category",
+  sourceCode: "https://example.com",
+  images: images.project2
+}
+
+const Project3 = {
+  title: "Project 1",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
+  category: "category",
+  sourceCode: "https://example.com",
+  images: images.project3
+}
+
+const Project4 = {
+  title: "Project 1",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
+  category: "category",
+  sourceCode: "https://example.com",
+  images: images.project4
+}
+
+
+const projects = [Project1, Project2, Project3, Project4];
+
 const Project = () => {
-    return (
+  const handleButtonClick = (url) => {
+    window.location.href = url;
+  };
+
+  return (
+  
     <div className="project" id="projects">
-        {Object.keys(images).map(folder => (
-            <article>
-                <h1>{folder}</h1>
-                    <div key={folder}>
-                        {images[folder].map((src, index) => (
-                        <img key={index} src={src} alt={`Image ${index + 1}`} />
-                        ))}
-                    </div>
-                <p>Project description</p>
-            </article>
-        ),)}
+      {projects.map((project, key) => (
+          <article>
+            <h1>{project.title}</h1>
+            <div>
+              <p>{project.category}</p>
+              {project.images && project.images.map((src, index) => (
+                <img key={index} src={src} alt={`Image ${index + 1}`} />
+              ))}
+            </div>
+            <p>{project.description}</p>
+            <button onClick={() => handleButtonClick(project.sourceCode)}>Source code</button>
+          </article>
+      ))}
     </div>
-        
-      );
-  }
+    
+  );
+}
 
 export default Project;
