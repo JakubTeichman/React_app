@@ -19,20 +19,20 @@ const Project1 = {
   title: "Project 1",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
   category: "category",
-  sourceCode: "https://example.com",
+  sourceCode: "https://github.com/JakubTeichman/Heart_disease_ML_model",
   images: images.project1
 }
 
 const Project2 = {
-  title: "Project 1",
+  title: "Project 2",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
   category: "category",
-  sourceCode: "https://example.com",
+  sourceCode: "https://github.com/JakubTeichman/Bullbozer_price_prediction_ML_project",
   images: images.project2
 }
 
 const Project3 = {
-  title: "Project 1",
+  title: "Project 3",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
   category: "category",
   sourceCode: "https://example.com",
@@ -40,7 +40,7 @@ const Project3 = {
 }
 
 const Project4 = {
-  title: "Project 1",
+  title: "Project 4",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
   category: "category",
   sourceCode: "https://example.com",
@@ -48,7 +48,7 @@ const Project4 = {
 }
 
 
-const projects = [Project1, Project2, Project3, Project4];
+const projects = [Project1, Project2, Project3];
 
 const Project = () => {
   const handleButtonClick = (url) => {

@@ -35,6 +35,8 @@ div.about p {
     text-align: justify;
     padding-left: 5vw;
     padding-right: 5vw;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 
@@ -42,10 +44,10 @@ div.about-main {
     margin-top: 20vh;
     background-color: #609f8a;
     padding: 20px;
+    padding-bottom: 5rem;
 }
 
 div.about-main h1 {
-    margin-right: 20px;
     font-size: 3.5rem;
     letter-spacing: 1cap;
     margin-bottom: 6vh;
@@ -83,7 +85,8 @@ li p {
 }
 
 div.skills {
-    margin: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
     padding: 5px;
     box-shadow: 0 4px 8px rgba(34, 38, 34, 0.092);
     border-radius: 50px;
