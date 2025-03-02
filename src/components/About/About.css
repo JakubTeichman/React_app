@@ -42,7 +42,7 @@ div.about p {
 
 div.about-main {
     margin-top: 20vh;
-    background-color: #609f8a;
+    background-color: #f4f7e1;
     padding: 20px;
     padding-bottom: 5rem;
 }
@@ -89,7 +89,9 @@ div.skills {
     margin-right: 10rem;
     padding: 5px;
     box-shadow: 0 4px 8px rgba(34, 38, 34, 0.092);
-    border-radius: 50px;
+    border-radius: 20px;
+    border-style: solid 4px;
+    border: #9c9c82;
 }
 
 div.skills ul {

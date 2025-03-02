@@ -4,8 +4,7 @@ div.project {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap; /* Pozwala elementom na zawijanie się do nowej linii */
-    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
     padding: 0vw;
 }
 
@@ -20,7 +19,7 @@ article {
     padding: 1vw;
     margin: 1vw;
     margin-bottom: 2vw;
-    background-color: #609f8a;
+    background-color: #f4f7e1;
     flex-basis: calc(50% - 60px); 
     box-sizing: border-box; 
 
@@ -32,22 +31,24 @@ img {
     height: 300px; 
     width: auto;
     border-radius: 10px;
+    border: solid 1px #cdd0b5;
+    box-shadow: 0px 4px 10px rgba(247, 247, 247, 0.3);
 }
 
 button {
-    background-color: #ff7f50; /* Kolor tła */
-    color: white; /* Kolor tekstu */
+    background-color:#69152f;
     border: none; /* Usuń obramowanie */
     border-radius: 5px; /* Zaokrąglone rogi */
     padding: 10px 20px; /* Padding wewnętrzny */
     font-size: 1rem; /* Rozmiar czcionki */
+    color: white;
     cursor: pointer; /* Kursor wskazujący na możliwość kliknięcia */
     transition: background-color 0.3s ease; /* Animacja zmiany koloru tła */
     margin-top: 10px; /* Margines górny */
 }
 
 button:hover {
-    background-color: #ff6347; /* Kolor tła po najechaniu */
+    background-color: #c32658; /* Kolor tła po najechaniu */
 }
 
 

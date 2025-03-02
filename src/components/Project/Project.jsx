@@ -48,7 +48,7 @@ const Project4 = {
 }
 
 
-const projects = [Project1, Project2, Project3];
+const projects = [Project1, Project2];
 
 const Project = () => {
   const handleButtonClick = (url) => {
