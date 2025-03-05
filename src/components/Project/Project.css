@@ -1,5 +1,5 @@
 div.project {
-    margin: 20vh;
+    margin: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,6 +8,13 @@ div.project {
     padding: 0vw;
 }
 
+#projects {
+    font-size: 3.5rem;
+    letter-spacing: 1cap;
+    color: #f4f7e1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 article {
     display: flex;
@@ -22,7 +29,14 @@ article {
     background-color: #f4f7e1;
     flex-basis: calc(50% - 60px); 
     box-sizing: border-box; 
+    padding-bottom: 3%;
 
+}
+
+.project p{
+    padding: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 img {

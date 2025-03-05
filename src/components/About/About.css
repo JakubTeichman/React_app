@@ -64,6 +64,7 @@ ul {
 li img {
     height: 3.5vw;
     width: auto;
+    border-style: none;
 }
 
 li {
@@ -88,6 +89,7 @@ div.skills {
     margin-left: 10rem;
     margin-right: 10rem;
     padding: 5px;
+    margin-bottom: 2rem;
     box-shadow: 0 4px 8px rgba(34, 38, 34, 0.092);
     border-radius: 20px;
     border-style: solid 4px;
