@@ -1,0 +1,106 @@
+img.about {
+    border-radius: 10px;
+    height: auto;
+    width: 10vw;
+    display: block;
+    margin: 0;
+    border-radius: 100px;
+}
+
+div.about-img {
+    background-color: linear-gradient(to right,#1D2671, #C33764);
+    border-radius: 300px;
+    width: 10vw;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.252);
+    border-radius: 250px;
+    
+}
+
+div.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+}
+
+div.about div {
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+div.about p {
+    display: block;
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+div.about-main {
+    margin-top: 20vh;
+    background-color: #f4f7e1;
+    padding: 20px;
+    padding-bottom: 5rem;
+}
+
+div.about-main h1 {
+    font-size: 3.5rem;
+    letter-spacing: 1cap;
+    margin-bottom: 6vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+}
+
+li img {
+    height: 3.5vw;
+    width: auto;
+    border-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: inset;
+    padding: 1vw;
+    list-style: armenian;
+}
+
+li p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.skills {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 5px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(34, 38, 34, 0.092);
+    border-radius: 20px;
+    border-style: solid 4px;
+    border: #9c9c82;
+}
+
+div.skills ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
