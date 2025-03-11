@@ -19,6 +19,15 @@ const About = () => {
         </div>
             <h1>SKILLS</h1>
             <h2>Machine learning</h2>
+            <div className="me">
+                <div className="about">
+                    <div>
+                        <p>
+                        I am currently taking a <b>machine learning and data analysis course</b> as part of my studies, as well as an additional Udemy course on this topic. Through this, I have gained hands-on experience with various tools for <b></b>building and evaluating machine learning models.
+                        </p>
+                    </div>
+                    </div>
+            </div>
             <div className="skills">
                     <ul>
                         <li>
@@ -44,6 +53,17 @@ const About = () => {
                     </ul>
                 </div>
                 <h2>Data analisys and visualization</h2>
+                <div className="me">
+                <div className="about">
+                    <div>
+                        <p>
+                        During my internship at <b>Balice Airport</b>, I gained hands-on experience using <b>Excel</b> for planning and managing the allocation of centralized infrastructure. I was responsible for daily capacity reports, ensuring efficient infrastructure usage, and collecting data for KPI reports.  
+
+Currently, I am expanding my skills by learning <b>Power BI</b> to create <b>interactive reports and data visualizations</b>, further enhancing my ability to analyze and present data effectively.
+                        </p>
+                    </div>
+                    </div>
+                </div>
                 <div className="skills">
                     <ul>
                         <li>
@@ -66,6 +86,17 @@ const About = () => {
                 </div>
 
                 <h2>Programing</h2>
+                <div className="me">
+                <div className="about">
+                    <div>
+                        <p>
+                        During my studies, I gained practical experience with various programming languages, including <b>C#</b>, which allowed me to understand <b>object-oriented programming (OOP)</b> principles and the SOLID principles.  
+
+I also explored <b>web development</b>, working with <b>HTML, CSS, JavaScript, and Bootstrap</b> to create responsive web applications. Currently, I am expanding my skills by learning <b>React</b> to build modern, dynamic user interfaces.
+                        </p>
+                    </div>
+                    </div>
+                </div>
                 <div className="skills">
                     <ul>
                         <li>

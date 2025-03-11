@@ -94,35 +94,19 @@ li p {
     margin: 0px;
 }
 
-div.skills {
+div.credits {
     margin-left: 10rem;
     margin-right: 10rem;
     padding: 5px;
     margin-bottom: 2rem;
-    box-shadow: 0 4px 8px rgba(34, 38, 34, 0.092);
-    border-radius: 20px;
-    border-style: solid 4px;
-    border: #9c9c82;
 }
 
-div.skills ul {
+div.credits ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     margin: 0;
     padding: 0;
 }
 
-div.skills:hover {
-    box-shadow: 0 4px 8px rgba(34, 38, 34, 0.244);
-}
-
-div.skills li {
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-}
-
-div.skills li:hover {
-    transform: scale(1.1); /* Powiększenie elementu */
-    box-shadow: 0 4px 8px rgba(34, 38, 34, 0.195);
-}
