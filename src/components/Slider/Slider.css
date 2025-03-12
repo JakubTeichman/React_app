@@ -5,10 +5,11 @@
     flex-direction: column;
     height: 38vw;
     padding: 5rem;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
     color: #f4f7e1;
     letter-spacing: 0.8cap;
+    margin-bottom: 0;
   }
   
   div.slider {

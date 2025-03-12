@@ -4,7 +4,8 @@ import "./Slider.css";
 export default function Slider() {
   const images = {
     "CAR ACCIDENT RAPORT": "https://github.com/JakubTeichman/PowerBI-raports/blob/main/Car%20accidents/Car%20accidents%20raport.jpg?raw=true",
-    "NUCLEAR PLANTS RAPORT": "https://github.com/JakubTeichman/PowerBI-raports/blob/main/Nuclear%20plants/Nuclear_Plant_Raport_page-0001.jpg?raw=true"
+    "NUCLEAR PLANTS RAPORT": "https://github.com/JakubTeichman/PowerBI-raports/blob/main/Nuclear%20plants/Nuclear_Plant_Raport_page-0001.jpg?raw=true",
+    "COFFEE SALES RAPORT": "https://github.com/JakubTeichman/PowerBI-raports/blob/main/Coffee%20sales/CoffeeSalesRaport_page-0001.jpg?raw=true"
   };
 
   const imageTitles = Object.keys(images);
